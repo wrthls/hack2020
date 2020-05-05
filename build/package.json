@@ -1,0 +1,59 @@
+{
+  "name": "testapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/node": "^13.13.2",
+    "aws-sdk": "^2.663.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "node-fetch": "^2.6.0",
+    "node-gyp": "^6.1.0",
+    "npm-cli": "^0.1.0",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "react": "^16.12.0",
+    "react-adaptive-size": "^1.0.2",
+    "react-dom": "^16.12.0",
+    "react-image-gallery": "^1.0.3",
+    "react-native-photo-gallery": "^0.1.10",
+    "react-photo-gallery": "^8.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-simple-chatbot": "^0.6.1",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.21.7",
+    "sqlite3": "^4.1.1",
+    "styled-components": "^5.0.1",
+    "typeorm": "^0.2.24",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "yard": "^1.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

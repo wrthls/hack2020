@@ -1,0 +1,64 @@
+.hide_overflow {
+  overflow: hidden;
+}
+
+hr.style_line{
+    border-top: 2px solid #eeeeee;
+}
+
+body{
+  background-color:transparent;
+}
+
+div{
+    overscroll-behavior-y: none;
+    white-space: pre-line;
+}
+
+
+.color_nav{
+  background-color: rgb(255, 204, 204, 0.12);
+  opacity: 1;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.zoomed {
+    zoom: 0.85;
+    -moz-transform: scale(0.85);
+    -moz-transform-origin: 0 0;
+}
+
+.zoomed_chat {
+    zoom: 1
+;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+    overscroll-behavior: contain;
+}
+
+.font_head {
+    font-size: 24px;
+}
+.font_body {
+    font-size: 14px;
+}
+
+.virhack_backround {
+  background-image: url('./img/backround.svg');
+}
+
+#chatbot {
+	position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: block;
+}
